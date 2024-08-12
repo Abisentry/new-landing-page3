@@ -157,7 +157,7 @@ export default function Home() {
                 Advanced AI Driven Solutions
               </h1>
               <p className="mt-4 text-lg lg:text-base xl:text-lg text-white">
-                Abisentry's Advanced AI Driven Solutions effectively prevent breaches, fraud, and other cyber threats.
+                Abisentrys Advanced AI Driven Solutions effectively prevent breaches, fraud, and other cyber threats.
               </p>
             </div>
           </div>
