@@ -36,7 +36,8 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
-  "resolutions": {
-    "@next/swc-win32-x64-msvc": "@next/swc-linux-x64-gnu"
-  }
+   "resolutions": {
+  "@next/swc-linux-x64-gnu": "14.2.5"
+}
+
 }
