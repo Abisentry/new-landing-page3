@@ -38,22 +38,23 @@ export default function Home() {
             />
           </div>
           <div className="hidden md:flex justify-between items-center text-[#FFFFFF] w-[50%] bg-[#57565aaf] rounded-full p-4">
-            <div>
-              <a href="#home">Home</a>
-            </div>
-            <div>
-              <a href="#about">About</a>
-            </div>
-            <div>
-              <a href="#service">Services</a>
-            </div>
-            <div>
-              <a href="#feature">Team</a>
-            </div>
-            <div>
-              <a href="#testimonial">Products</a>
-            </div>
-          </div>
+  <div>
+    <a href="#home">Home</a>
+  </div>
+  <div>
+    <a href="#About Us">About Us</a>
+  </div>
+  <div>
+    <a href="#Our Services">Services</a>
+  </div>
+  <div>
+    <a href="#Our Team">Team</a>
+  </div>
+  <div>
+    <a href="#Our Product">Products</a>
+  </div>
+</div>
+
           <a href="#home">
             <Image
               alt="Brand Image"
@@ -109,7 +110,7 @@ export default function Home() {
                 </div>
                 <div className="text-5xl lg:text-6xl text-white h-auto w-auto font-extrabold">
                   <h2>Your Digital</h2>
-                  <h2>Fortress | Guard</h2>
+                  <h2>Fortress | Guarded</h2>
                   <p className="text-xs lg:text-base mt-4 font-medium">
                     We are on quest to reinforce the digital world and guarantee the safety of our clients priceless assets, and we are fueled by a passion for security, AI, and a team of highly skilled experts.
                   </p>
@@ -146,7 +147,7 @@ export default function Home() {
         </header>
 
         {/* About Us */}
-        <section className="px-5 sm:px-10 md:px-20 mb-20">
+        <section id="About Us"className="px-5 sm:px-10 md:px-20 mb-20">
           <div className="lg:flex justify-between">
             <div className="lg:w-[48%]">
               <Image src={assets.cyberSecurity} alt="cyber security" />
@@ -157,7 +158,7 @@ export default function Home() {
                 Advanced AI Driven Solutions
               </h1>
               <p className="mt-4 text-lg lg:text-base xl:text-lg text-white">
-                Abisentrys Advanced AI Driven Solutions effectively prevent breaches, fraud, and other cyber threats.
+                Abisentry Advanced AI Driven Solutions effectively prevent breaches, fraud, and other cyber threats.
               </p>
             </div>
           </div>
@@ -182,7 +183,7 @@ export default function Home() {
       </section>
 
       {/* Our sercices */}
-      <section className="overflow-y-hidden overflow-hidden">
+      <section id="Our Services" className="overflow-y-hidden overflow-hidden">
         <div className="relative">
           <Image
             src={assets.EllipsBg}
@@ -224,7 +225,7 @@ export default function Home() {
                 </h4>
 
                 <p className="text-center text-sm leading-7 mt-5">
-                To provide in-depth analyses of clints current cybersecurity infrastructure, spotting flaws and offering practical advice to bolster their defenses
+                To provide in-depth analyses of clients current cybersecurity infrastructure, spotting flaws and offering practical advice to bolster their defenses
     
                   {" "}
                 </p>
@@ -381,7 +382,7 @@ export default function Home() {
 
       {/* Our goal */}
       {/* Pricing table */}
-      <section className="overflow-auto">
+      <section id="Our Team" className="overflow-auto">
       <div className="relative">
         <Image
           src={assets.EllipsBg}
@@ -554,8 +555,8 @@ export default function Home() {
                 </div>
                 <div className="flex items-center flex-col justify-center w-[50%] text-white">
               <Image
-                src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabiola.67244cb5.png&w=1920&q=75"
-                alt="Abiola Shittu"
+                src="/assets/me.png"
+                alt=""
                 width={180}
                 height={180}
                 className="bg-gradient-to-r from-[#32333593] via-[#171717] via-30% via-[#171717] via-60% to-[#32333593]"
@@ -564,20 +565,21 @@ export default function Home() {
               <h1 className="mt-5 text-xl font-bold">Okafor Onyebuchi</h1>
               <h3 className="my-3">Front-End Developer</h3>
               <div className="flex">
-                <a className="border-[1px] border-white rounded-md p-2" href="#/">
-                  <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    strokeWidth="0"
-                    viewBox="0 0 32 32"
-                    className="text-2xl"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z"></path>
-                  </svg>
-                </a>
+              <a className="border-[1px] border-white rounded-md p-2" href="https://www.linkedin.com/in/onyebuchi-okafor-485628243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+            <svg
+           stroke="currentColor"
+           fill="currentColor"
+           strokeWidth="0"
+            viewBox="0 0 32 32"
+            className="text-2xl"
+            height="1em"
+           width="1em"
+           xmlns="http://www.w3.org/2000/svg"
+           >
+         <path d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z"></path>
+        </svg>
+          </a>
+
                 </div>
                 </div>
           </div>
@@ -585,7 +587,7 @@ export default function Home() {
       </div>
     </section>
       {/* testimonial */}
-      <section className="overflow-y-hidden overflow-hidden">
+      <section id="Our Product" className="overflow-y-hidden overflow-hidden">
         <div className="relative">
           <Image
             src={assets.EllipsBg}
@@ -614,14 +616,14 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mt-10 z-20">
             <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
-              <p> Checkout our AI fortified products to protect your business.
+              <p> Checkout our AI Fortified Products to Protect your Business.
                 {" "}
               </p>
               <div className="flex items-center mt-3">
                 <Image src={assets.let} alt="" width={70} height={70} />
                 <div className="ms-3">
-                  <h1 className="text-xl">Marianne Bode</h1>
-                  <h6 className="my-1">Product </h6>
+                  <h1 className="text-xl">Abi Save</h1>
+                  <h6 className="my-1">Get Started </h6>
                   <div className="flex">
                     <Image src={assets.Star} alt="" width={20} />
                     <Image
@@ -653,14 +655,14 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
-              <p> Checkout our AI fortified products to protect your business.
+              <p> Checkout our AI Fortified Products to Protect your Business.
                 {" "}
               </p>
               <div className="flex items-center mt-3">
                 <Image src={assets.let} alt="" width={70} height={70} />
                 <div className="ms-3">
-                  <h1 className="text-xl">Marianne Bode</h1>
-                  <h6 className="my-1">Product Fight Fraud</h6>
+                  <h1 className="text-xl">Chase Fraud</h1>
+                  <h6 className="my-1">Get Started</h6>
                   <div className="flex">
                     <Image src={assets.Star} alt="" width={20} />
                     <Image
@@ -691,7 +693,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
+            {/* <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
               <p>
               Checkout our AI fortified products to protect your business.{" "}
               </p>
@@ -729,8 +731,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
+            </div> */}
+            {/* <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
               <p> Checkout our AI fortified products to protect your business.
                  {" "}
               </p>
@@ -768,7 +770,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -826,9 +828,11 @@ export default function Home() {
             placeholder="Enter your email"
             className="w-[100%] text-xl text-black bg-white py-4 px-4 rounded-2xl outline-none"
           />
-          <button type="submit" className="bg-[#3ED5DD] p-2 px-2 rounded-xl absolute right-4 top-2">
-            Subscribe
-          </button>
+         <Link href="https://campaigns.zoho.com/campaigns/org850170927/home.do#dashboardhttps://campaigns.zoho.com/campaigns/org850170927/home.do#dashboard">
+        <button type="submit" className="bg-[#3ED5DD] p-2 px-2 rounded-xl absolute right-4 top-2">
+         Subscribe
+        </button>
+        </Link>
         </div>
       </form>
     </div>
@@ -837,8 +841,8 @@ export default function Home() {
     <div className="md:flex justify-between">
       <div className="text-xl md:w-[50%] mt-4">
         <h1 className="text-2xl">Services</h1>
-        <div className="mt-2 text-base lg:text-lg md:text-start text-gray-300">
-          <p>End point protection</p>
+        <div className="mt-2 text-base lg:text-lg md:text-start text-gray-300 ml-10">
+          <p>End Point Protection</p>
           <p>Vulnerability Assessment</p>
           <p>Threat Intelligence</p>
           <p>Incident Response</p>
@@ -848,7 +852,7 @@ export default function Home() {
       </div>
     </div>
     <div className="md:flex justify-between">
-      <div className="text-xl md:w-[50%] mt-4">
+      <div className="text-xl md:w-[50%] mt-4 -ml-40">
         <h1 className="text-2xl">Quick Links</h1>
         <ul className="mt-2 text-base lg:text-lg md:text-start lg:text-center text-gray-300">
           <li>Testimonial</li>
@@ -862,7 +866,7 @@ export default function Home() {
 
  
 
-      <div className="text-2xl md:w-[50%] mt-4">
+      <div className="text-2xl md:w-[50%] mt-2 mr-20">
         <h3>Contact Us</h3>
         <div className="mt-4 flex justify-center md:justify-between text-gray-300">
           <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="/#">
