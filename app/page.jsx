@@ -110,7 +110,7 @@ export default function Home() {
                 </div>
                 <div className="text-5xl lg:text-6xl text-white h-auto w-auto font-extrabold">
                   <h2>Your Digital</h2>
-                  <h2>Fortress | Guarded</h2>
+                  <h2>Fortress | Guarded By Abisentry</h2>
                   <p className="text-xs lg:text-base mt-4 font-medium">
                     We are on quest to reinforce the digital world and guarantee the safety of our clients priceless assets, and we are fueled by a passion for security, AI, and a team of highly skilled experts.
                   </p>
@@ -221,7 +221,7 @@ export default function Home() {
                 />
 
                 <h4 className="text-center mt-10 text-3xl">
-                Entensive Cybersecurity assessments{" "}
+                Extensive Cybersecurity assessments{" "}
                 </h4>
 
                 <p className="text-center text-sm leading-7 mt-5">
@@ -828,7 +828,7 @@ export default function Home() {
             placeholder="Enter your email"
             className="w-[100%] text-xl text-black bg-white py-4 px-4 rounded-2xl outline-none"
           />
-         <Link href="https://campaigns.zoho.com/campaigns/org850170927/home.do#dashboardhttps://campaigns.zoho.com/campaigns/org850170927/home.do#dashboard">
+         <Link href= "mailto:abisentrytechnologies@gmail.com">
         <button type="submit" className="bg-[#3ED5DD] p-2 px-2 rounded-xl absolute right-4 top-2">
          Subscribe
         </button>
@@ -914,24 +914,20 @@ export default function Home() {
               <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
             </svg>
           </a>
-          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0"     href="https://calendly.com/abisentry/answer">
-          
-            <svg
-              stroke="currentColor"
-              fill="none"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-2xl"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-            </svg>
-          </a>
+          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="https://www.linkedin.com/in/your-profile/">
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    viewBox="0 0 448 512"
+    className="text-2xl"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M100.28 448H7.4V149.48h92.88zm-46.44-338a53.33 53.33 0 1 1 53.33-53.33 53.34 53.34 0 0 1-53.33 53.33zm384 338h-92.68v-196c0-46.72-16.77-78.62-58.54-78.62-31.93 0-50.88 21.48-59.22 42.2-3.04 7.43-3.8 17.82-3.8 28.25v204.21h-92.68V149.48h92.68v40.8c12.28-18.91 34.22-45.86 83.33-45.86 60.85 0 106.47 39.76 106.47 125.21z"></path>
+  </svg>
+</a>
+
         </div>
         <div className="flex justify-center items-center md:justify-start md:items-start flex-col">
           <div className="flex items-center my-5">
@@ -949,31 +945,8 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
             <a className="ms-3 text-sm text-gray-300" href="mailto:abbisentry03@gmail.com">
-             Mail:@abisentechnologies.com|
-             admin@abisentrytechnologies.com
+             Mail:@abisentechnologies.com
             </a>
-          </div>
-          <div className="flex items-center mb-5">
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth="0"
-              viewBox="0 0 512 512"
-              className="text-2xl"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="32"
-                d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"
-              ></path>
-              <circle cx="256" cy="192" r="48" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"></circle>
-            </svg>
-            <p className="ms-3 text-sm"></p>
           </div>
           <div className="flex items-center">
             <svg
@@ -990,6 +963,9 @@ export default function Home() {
             >
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
+            <a className="ms-3 text-sm text-gray-300" href="mailto:abbisentry03@gmail.com">
+            +234 907 418 3753
+            </a>
             <p className="ms-3 text-sm"></p>
           </div>
         </div>
