@@ -9,6 +9,20 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleClick = (e) => {
+    // Prevents the default mailto link from opening immediately
+    e.preventDefault();
+
+    // Show the popup
+    setShowPopup(true);
+
+    // Wait for a moment, then proceed with the mailto link
+   
+  };
+
+
   const aboutGradient =
     "bg-gradient-to-r from-[#54F4FC] via-[#54F4FC] via-30% via-[#B4F3FF] via-75% to-[#176DB4]";
 
@@ -451,7 +465,7 @@ export default function Home() {
                 layout="intrinsic" // Adjust layout according to need
               />
               <h1 className="mt-5 text-xl font-bold">Ganiyu Precious</h1>
-              <h3 className="my-3">Operation Assistance</h3>
+              <h3 className="my-3">Operation Assistant</h3>
               <div className="flex">
                 <a className="border-[1px] border-white rounded-md p-2" href="#/">
                   <svg
@@ -478,7 +492,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-[#32333593] via-[#171717] via-30% via-[#171717] via-60% to-[#32333593]"
                 layout="intrinsic" // Adjust layout according to need
               />
-              <h1 className="mt-5 text-xl font-bold">Adebayo Okuyiga</h1>
+              <h1 className="mt-5 text-xl font-bold">Adedayo Okuyiga</h1>
               <h3 className="my-3">App Developer</h3>
               <div className="flex">
                 <a className="border-[1px] border-white rounded-md p-2" href="#/">
@@ -828,11 +842,19 @@ export default function Home() {
             placeholder="Enter your email"
             className="w-[100%] text-xl text-black bg-white py-4 px-4 rounded-2xl outline-none"
           />
-         <Link href= "mailto:abisentrytechnologies@gmail.com">
-        <button type="submit" className="bg-[#3ED5DD] p-2 px-2 rounded-xl absolute right-4 top-2">
-         Subscribe
-        </button>
-        </Link>
+           <button
+        type="button"
+        className="bg-[#3ED5DD] p-2 px-2 rounded-xl absolute right-4 top-2"
+        onClick={handleClick}
+      >
+        Subscribe
+      </button>
+
+      {showPopup && (
+        <div className="absolute right-4 top-16 bg-black p-4 rounded-lg shadow-lg">
+          <p>Thank you for subscribing!</p>
+        </div>
+      )}
         </div>
       </form>
     </div>
@@ -855,12 +877,12 @@ export default function Home() {
       <div className="text-xl md:w-[50%] mt-4 -ml-40">
         <h1 className="text-2xl">Quick Links</h1>
         <ul className="mt-2 text-base lg:text-lg md:text-start lg:text-center text-gray-300">
-          <li>Testimonial</li>
-          <li>Our Service</li>
+          <li> <a href="#About Us">About Us</a></li>
+          <li><a href="#Our Service">Our Service</a></li>
           <Link href="/security-policy"><li>Security Policy</li></Link>
           <Link href="/privacy-policy"> <li>Privacy Policy</li> </Link>
-          <li>Blog</li>
-          <li>Products</li>
+          <li><a href="#Our Team">Our Team </a></li>
+          <li> <a href="#Our Product">Products</a></li>
         </ul>
       </div>
 
@@ -883,7 +905,7 @@ export default function Home() {
               <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
             </svg>
           </a>
-          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="/#">
+          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="https://www.facebook.com/Abisentry?mibextid=ZbWKwL">
             <svg
               stroke="currentColor"
               fill="none"
@@ -900,7 +922,7 @@ export default function Home() {
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
             </svg>
           </a>
-          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="/#">
+          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="https://x.com/abisentry?t=RIQSBT-Z3UAqsjyT4wVgsw&s=09">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -914,9 +936,9 @@ export default function Home() {
               <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
             </svg>
           </a>
-          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="https://www.linkedin.com/in/your-profile/">
-  <svg
-    stroke="currentColor"
+          <a className="border-[1px] border-gray-300 rounded-xl p-2 mx-6 md:mx-0" href="https://www.linkedin.com/company/abisentry-technologies/">
+       <svg
+       stroke="currentColor"
     fill="currentColor"
     viewBox="0 0 448 512"
     className="text-2xl"
@@ -945,7 +967,7 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
             <a className="ms-3 text-sm text-gray-300" href="mailto:abbisentry03@gmail.com">
-             Mail:@abisentechnologies.com
+             Mail:admin@abisentrytechnologies.com
             </a>
           </div>
           <div className="flex items-center">
