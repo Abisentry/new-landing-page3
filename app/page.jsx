@@ -6,7 +6,11 @@ import 'swiper/css/pagination';
 import Link from 'next/link';
 import assets from "@/public/assets/assets";
 import Image from 'next/image';
+import Head from 'next/head';
 import { useState, useEffect } from 'react';
+
+
+
 
 export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
@@ -30,6 +34,7 @@ export default function Home() {
     "bg-gradient-to-r from-[#32333593] via-[#171717] via-30% via-[#171717] via-60% to-[#32333593]";
 
   return (
+
     <main className="relative">
       <Image
         src={assets.Ellips}
@@ -976,6 +981,7 @@ export default function Home() {
             +234 907 418 3753
             </a>
             <p className="ms-3 text-sm"></p>
+            
           </div>
         </div>
       </div>
@@ -985,6 +991,7 @@ export default function Home() {
     </section>
     </main>
     </main>
+  
   
   );
 
