@@ -4,6 +4,7 @@ import "./globals.css";
 import { TailwindIndicator } from "./components/Tailwindindicator";
 import Head from "next/head"; // Import Head component
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" /> {/* Link to the favicon */}
+        <link rel="icon" href="/favicon.png" /> {<link rel="icon" type="image/png" sizes="3x3" href="/favicon.png" />}
       </Head>
       <body className={`${inter.className} bg-[#191919]`}>
         {children}
