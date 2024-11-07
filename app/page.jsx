@@ -797,7 +797,7 @@ export default function Home() {
           
              <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
               <p>
-              Checkout our AI fortified products to protect your business.{" "}
+              To use AbiMirror your 24/7 Background check Pal.{" "}
               </p>
         <div className="flex items-center mt-3">
        <Image src={assets.let} alt="" width={70} height={70} />
