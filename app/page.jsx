@@ -812,7 +812,6 @@ export default function Home() {
       <Image src={assets.Star} alt="" width={20} className="ms-1" />
       <Image src={assets.Star} alt="" width={20} className="ms-1" />
       <Image src={assets.Star} alt="" width={20} className="ms-1" />
-      <Image src={assets.Star} alt="" width={20} className="ms-1" />
     </div>
   </div>
 </div>
