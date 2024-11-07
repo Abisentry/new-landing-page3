@@ -1,4 +1,4 @@
-         'use client';
+'use client';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -712,92 +712,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
-              <p>
-              Checkout our AI fortified products to protect your business.{" "}
-              </p>
-              <div className="flex items-center mt-3">
-                <Image src={assets.let } alt="" width={70} height={70} />
-                <div className="ms-3">
-                  <h1 className="text-xl">Marianne Bode</h1>
-                  <h6 className="my-1">Product Intranet Agent</h6>
-                  <div className="flex">
-                    <Image src={assets.Star} alt="" width={20} />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
-              <p> Checkout our AI fortified products to protect your business.
-                 {" "}
-              </p>
-              <div className="flex items-center mt-3">
-                <Image src={assets.let} alt="" width={70} height={70} />
-                <div className="ms-3">
-                  <h1 className="text-xl">Marianne Bode</h1>
-                  <h6 className="my-1">Product Intranet Agent</h6>
-                  <div className="flex">
-                    <Image src={assets.Star} alt="" width={20} />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                    <Image
-                      src={assets.Star}
-                      alt=""
-                      width={20}
-                      className="ms-1"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
-        </div>
             
           
              <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
-              <p> 
-              To use AbiMirror your 24/7 Background check Pal.{" "}
+              <p>
+              To use fortified products to use AbiMirror your 24/7 Ai Background check pal{" "}
               </p>
         <div className="flex items-center mt-3">
        <Image src={assets.let} alt="" width={70} height={70} />
@@ -816,7 +735,8 @@ export default function Home() {
   </div>
 </div>
 </div>
-
+</div>
+</div>
 
         <div className="relative">
           <Image
