@@ -716,7 +716,7 @@ export default function Home() {
           
              <div className="bg-[#1f1e1eaf] z-20 p-4 text-white">
               <p>
-              To use fortified products to use AbiMirror your 24/7 Ai Background check pal{" "}
+             Use AbiMirror your 24/7 Ai fortified Background Check Pal{" "}
               </p>
         <div className="flex items-center mt-3">
        <Image src={assets.let} alt="" width={70} height={70} />
